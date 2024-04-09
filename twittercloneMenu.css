@@ -1,0 +1,194 @@
+.twitter-menu {
+height: 800px;
+display: flex;
+justify-content: center;
+ width: 21%;
+ position: fixed;
+ left: 0;
+ top: 0;
+ background-color: brown;
+}
+
+.logo {
+  height: 28px;
+  
+}
+.logo-box{
+  background-color: blueviolet;
+ 
+ display: flex;
+ align-items: center;
+ min-height: 55px;
+}
+
+.logo-container {
+display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  height: 45px;
+  width: 45px;
+ 
+
+}
+
+.logo-container:hover {
+  cursor: pointer;
+  background-color: #dad9d9;
+}
+.menu-contents-box{
+display: flex;
+flex-direction: column;
+
+background-color: aqua;
+
+}
+
+.menu-contents {
+background-color: chartreuse;
+margin-top: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  margin-bottom: 0px;
+}
+.sidebar-links{
+  
+  display: flex;
+  flex-direction: column;
+ 
+  justify-content: center;
+}
+
+.menu-content {
+  height: 50px;
+  margin-bottom: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: arial;
+  width: fit-content;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 100px;
+  font-weight: 700;
+background-color: blueviolet;
+}
+
+.menu-content:hover {
+  cursor: pointer;
+  background-color: #dad9d9;
+
+}
+
+
+.sidebar-icons {
+  height: 22px;
+  margin-right: 15px;
+ 
+  
+}
+
+
+.menu-button {
+padding: 15px 90px;
+  border-radius: 50px;
+  background-color: #2da0fd;
+  color: white;
+  border: none;
+
+  font: arial;
+  font-weight: bold;
+  font-size: 17px;
+
+  transition: background-color 0.15s;
+}
+
+.menu-button:hover {
+  cursor: pointer;
+background-color: #306ea0;
+}
+
+.loggedin-account {
+
+
+ padding: 5px 12px;
+  display: flex;
+  flex-direction: row;
+ 
+  width: fit-content;
+  border-radius: 100px;
+  font-family: arial;
+transition: background-color 0.15s;
+  align-items: center;
+}
+.loggedin-account:hover{
+  cursor: pointer;
+  background-color: #dad9d9;
+}
+
+.my-dp {
+
+  width: 20%;
+}
+
+.dp {
+  height: 45px;
+  border-radius: 100%;
+}
+
+.my-details {
+
+  width: 60%;
+  line-height: 5px;
+  padding-left: 10px;
+}
+
+.more {
+ 
+  width: 30%;
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.menu-button2{
+  background-color: #2da0fd;
+  border-width: 1px;
+  padding: 8px 10px;
+  border-radius: 100%;
+  border: none;
+  display: none;
+  
+}
+.menu-button2:hover{
+cursor: pointer;
+background-color: #306ea0;
+}
+.leaf-icon{
+  height: 30px;
+}
+@media screen and (max-width: 1300px) {
+  .menu-names{
+    display: none;
+  }
+  .twitter-menu{
+    justify-content: end;
+  }
+ 
+
+
+
+  .menu-button {
+    display: none;
+  }
+  .menu-button2{
+    display: initial;
+  }
+  .my-details, .more{
+    display: none;
+  }
+  
+ 
+  
+}

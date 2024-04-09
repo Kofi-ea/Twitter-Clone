@@ -1,0 +1,575 @@
+.twitter {
+  border-style: solid;
+  border-width: 1px;
+  width: 100%;
+display: flex;
+margin-left: 21%;
+}
+
+.twitter-timeline {
+  width: 49%;
+  flex-direction: column;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-color: rgb(176, 176, 176);
+display: flex;
+  border-top-width: 0px;
+
+
+}
+
+
+.timeline-header {
+  width: 49%;
+border-color: rgb(176, 176, 176);
+  background-color: rgba(255, 255, 255, 0.979);
+  z-index: 1000;
+  display: flex;
+  height: 55px;
+  position: fixed;
+  top: 0;
+  border-bottom-width: 1px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-style: solid;
+}
+
+.left-header {
+  width: 45%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.15s;
+}
+
+.left-header:hover {
+  background-color: rgb(218, 218, 218);
+  cursor: pointer;
+}
+
+.right-header {
+  width: 45%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.15s;
+}
+
+.right-header:hover {
+  background-color: rgb(218, 218, 218);
+  cursor: pointer;
+}
+
+.settings-box {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.settings-box .tooltip {
+  position: absolute;
+  margin-top: 70px;
+  width: 100px;
+  background-color: rgb(84, 82, 82);
+  color: white;
+  border-radius: 2px;
+  padding: 2px 2px;
+  font-size: 14px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s;
+}
+
+.settings-box:hover .tooltip {
+  opacity: 1;
+}
+
+.settings-icon {
+  height: 22px;
+}
+
+.settings-button {
+  padding: 6px 6px;
+  display: flex;
+  justify-content: center;
+  border-radius: 40px;
+  border-style: solid;
+  border: none;
+}
+
+.settings-button:hover {
+  cursor: pointer;
+  background-color: rgb(218, 218, 218);
+}
+
+.your-timeline {
+  background-color: transparent;
+  padding-top: 60px;
+
+}
+
+.tweet-area {
+  height: 120px;
+  display: flex;
+  margin-top: 8px;
+  border-color: rgb(176, 176, 176);
+  padding-left: 15px;
+  padding-right: 15px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+.tweet-space{
+  width: 100%;
+ 
+}
+
+.pp-box {
+  background-color: transparent;
+  margin-right: 8px;
+}
+
+.my-pp {
+  height: 43px;
+  border-radius: 100%;
+}
+
+.placeholder1 {
+  font-size: 20px;
+  font-family: arial;
+  border: none;
+  outline: none;
+  width: 100%;
+background-color: inherit;
+}
+
+.tweet-additives {
+background-color: inherit;
+  display: flex;
+ justify-content: space-between;
+
+  margin-top: 20px;
+}
+
+.additives {
+
+  display: flex;
+  align-items: center;
+
+}
+
+.edits1,
+.edits2,
+.edits3,
+.edits4,
+.edits5,
+.edits6 {
+  border-radius: 100%;
+  display: flex;
+  padding: 5px 5px;
+  transition: background-color 0.15s;
+  margin-right: 10px;
+  position: relative;
+}
+
+.edits1:hover,
+.edits2:hover,
+.edits3:hover,
+.edits4:hover,
+.edits5:hover,
+.edits6:hover {
+  cursor: pointer;
+  background-color: #b9d8f1;
+}
+
+.edits1 .tooltip {
+  position: absolute;
+  margin-top: 28px;
+  margin-left: -5px;
+  background-color: rgb(109, 108, 108);
+  color: white;
+  font-size: 12px;
+  font-family: arial;
+  padding: 3px 3px;
+  border-radius: 3px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+
+.edits1:hover .tooltip {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.edits2 .tooltip {
+  position: absolute;
+  margin-top: 28px;
+  margin-left: -5px;
+  background-color: rgb(109, 108, 108);
+  color: white;
+  font-size: 12px;
+  font-family: arial;
+  padding: 3px 3px;
+  border-radius: 3px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+
+.edits2:hover .tooltip {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.edits3 .tooltip {
+  position: absolute;
+  margin-top: 28px;
+  margin-left: -4px;
+  background-color: rgb(109, 108, 108);
+  color: white;
+  font-size: 12px;
+  font-family: arial;
+  padding: 3px 3px;
+  border-radius: 3px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+
+.edits3:hover .tooltip {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.edits4 .tooltip {
+  position: absolute;
+  margin-top: 28px;
+  margin-left: -8px;
+  background-color: rgb(109, 108, 108);
+  color: white;
+  font-size: 12px;
+  font-family: arial;
+  padding: 3px 3px;
+  border-radius: 3px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+
+.edits4:hover .tooltip {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.edits5 .tooltip {
+  position: absolute;
+  margin-top: 28px;
+  margin-left: -15px;
+  background-color: rgb(109, 108, 108);
+  color: white;
+  font-size: 12px;
+  font-family: arial;
+  padding: 3px 3px;
+  border-radius: 3px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+
+.edits5:hover .tooltip {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.edits-icons {
+  height: 17px;
+  display: flex;
+
+}
+
+.post-b {
+  padding: 8px 17px;
+  border-radius: 19px;
+  font-weight: bolder;
+  font-family: arial;
+  border: none;
+  color: white;
+  background-color: #2da0fd;
+}
+
+.tweet1 {
+  display: flex;
+  vertical-align: top;
+  background-color: transparent;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: rgb(176, 176, 176);
+
+}
+.tweet1:hover{
+cursor: pointer;
+background-color: rgb(239, 238, 238);
+}
+
+.my-pp1 {
+  height: 43px;
+  border-radius: 100%;
+}
+
+.pp-box1 {
+  background-color: transparent;
+  margin-right: 8px;
+  padding-top: 12px;
+}
+
+.tweet-contents {
+  background-color: transparent;
+  vertical-align: top;
+  width: 100%;
+  line-height: 18px;
+  font-size: 15px;
+  padding-bottom: 12px;
+}
+
+
+.user {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  font-family: arial;
+  padding-top: 12px;
+  vertical-align: text-bottom;
+}
+
+.user-name {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-bottom: 3px;
+}
+
+.handle {
+  color: gray;
+  vertical-align: text-bottom;
+  font-size: 14px;
+}
+
+.atweet {
+  margin-top: 0px;
+  width: 86%;
+}
+
+.atweet2 {
+  margin-top: 0px;
+  width: 100%;
+}
+
+.atweet3 {
+  margin-top: 0px;
+  width: 100%;
+}
+
+.atweet4 {
+  margin-top: 0px;
+  width: 100%;
+}
+
+
+
+.middots {
+  background-color: transparent;
+  display: flex;
+  font-weight: bolder;
+  position: relative;
+  font-size: larger;
+  height: fit-content;
+  padding: 3px 3px;
+  border-radius: 100%;
+  transition: background-color 0.15s, color 0.15s;
+
+}
+
+.middots .tooltip {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: -7px;
+  font-size: 12px;
+  font-family: arial;
+  background-color: rgb(64, 64, 64);
+  padding: 1px 2px;
+  color: white;
+  border-radius: 3px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+
+.middots:hover .tooltip {
+  opacity: 1;
+}
+
+.middots:hover {
+  cursor: pointer;
+  background-color: #9bd1fc;
+  color: #034f8e;
+
+}
+
+.reactions {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.tweet-reactions-icons {
+  height: 18px;
+}
+
+.tweet-reactions1,
+.tweet-reactions2,
+.tweet-reactions3,
+.tweet-reactions4 {
+  display: flex;
+  align-items: center;
+  border-radius: 100%;
+  transition: background-color 0.15s;
+ 
+  padding: 4px 4px;
+  position: relative;
+}
+
+.tweet-reactions1:hover {
+  cursor: pointer;
+  background: rgba(160, 225, 247, 0.7);
+}
+
+.tweet-reactions2:hover {
+  cursor: pointer;
+  background: rgba(176, 235, 225, 0.7);
+}
+
+.tweet-reactions3:hover {
+  cursor: pointer;
+  background: rgba(253, 153, 166, 0.7);
+}
+
+.tweet-reactions4:hover {
+  cursor: pointer;
+  background: rgba(142, 178, 245, 0.7);
+}
+
+.tweet-reactions1 .tooltip {
+  position: absolute;
+  margin-top: 60px;
+  margin-left: -5px;
+  background-color: rgb(70, 70, 70);
+  font-family: arial;
+  font-size: 12px;
+  padding: 1px 2px;
+  border-radius: 3px;
+  color: white;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.tweet-reactions1:hover .tooltip {
+  opacity: 1;
+}
+
+.tweet-reactions2 .tooltip {
+  position: absolute;
+  margin-top: 60px;
+  margin-left: -8px;
+  background-color: rgb(70, 70, 70);
+  font-family: arial;
+  font-size: 12px;
+  padding: 1px 2px;
+  border-radius: 3px;
+  color: white;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.tweet-reactions2:hover .tooltip {
+  opacity: 1;
+}
+
+.tweet-reactions3 .tooltip {
+  position: absolute;
+  margin-top: 60px;
+  margin-left: -4px;
+  background-color: rgb(70, 70, 70);
+  font-family: arial;
+  font-size: 12px;
+  padding: 1px 2px;
+  border-radius: 3px;
+  color: white;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.tweet-reactions3:hover .tooltip {
+  opacity: 1;
+}
+
+.tweet-reactions4 .tooltip {
+  position: absolute;
+  margin-top: 60px;
+  margin-left: -15px;
+  background-color: rgb(70, 70, 70);
+  font-family: arial;
+  font-size: 12px;
+  padding: 1px 2px;
+  border-radius: 3px;
+  color: white;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.tweet-reactions4:hover .tooltip {
+  opacity: 1;
+}
+
+.tl-picture {
+  width: 100%;
+  border-radius: 8px;
+
+}
+
+
+
+
+
+
+
+
+.b-s {
+  display: flex;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 722px) {
+
+  .edits3,
+  .edits5 {
+    display: none;
+  }
+}
