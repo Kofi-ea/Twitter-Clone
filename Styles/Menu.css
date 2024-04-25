@@ -63,7 +63,7 @@
   justify-content: center;
 }
 
-.menu-content {
+.sidebar-links div{
   height: 50px;
   margin-bottom: 2px;
   display: flex;
@@ -78,13 +78,13 @@
   background-color: blueviolet;
 }
 
-.menu-content:hover {
+.sidebar-links div:hover {
   cursor: pointer;
   background-color: #dad9d9;
 }
 
 
-.sidebar-icons{
+.sidebar-links img{
   height: 22px;
   margin-right: 15px;
 }
@@ -160,7 +160,7 @@ background-color: #306ea0;
   height: 30px;
 }
 @media screen and (max-width: 1300px) {
-  .menu-names{
+  .sidebar-links span{
     display: none;
   }
   .parent-container{
