@@ -5,13 +5,11 @@ body {
 }
 
 .info {
-
   display: flex;
-
   width: 30%;
 }
 
-.info-head {
+.info-head{
   display: flex;
   justify-content: center;
   width: 30%;
@@ -61,15 +59,12 @@ input[type="search"]::placeholder {
   margin: 0;
   border: 1px solid transparent;
   border-radius: inherit;
-
   cursor: pointer;
-
 }
 
 button [type="submit"] {
   text-indent: -999px;
   overflow: hidden;
-
   padding: 0;
   margin: 0;
   border: 1px solid transparent;
@@ -88,7 +83,6 @@ input[type="search"]:focus {
   box-shadow: 0 0 3px 0 transparent;
   border-color: transparent;
   outline: none;
-
 }
 
 .search-bar {
@@ -111,23 +105,16 @@ input[type="search"]:focus {
 
 .search-button {
   height: 2px;
-
-
   border: none;
   border-radius: 30px;
-
   background-color: rgb(241, 236, 236);
-
 }
 
 .search-icon {
   height: 15px;
-
-
 }
 
 .information {
-
   margin-top: 60px;
   width: 100%;
   display: flex;
@@ -135,41 +122,33 @@ input[type="search"]:focus {
 }
 
 .info-contents {
-
   width: 85%;
-
   height: fit-content;
-
-
 }
 
-.subscribe {
+.subscription{
   width: fit-content;
-
   font-family: arial;
   padding: 12px 16px;
-
   border-radius: 20px;
   margin-bottom: 16px;
   background-color: rgb(241, 236, 236);
-
 }
 
-.subscribe h1 {
+.subscription h1 {
   margin-top: 0;
   margin-bottom: 0;
   padding-bottom: 5px;
 }
 
-.subscribe p {
+.subscription p {
   font-size: 15px;
   width: 90%;
   color: #555;
   margin-top: 0;
-
 }
 
-.subscribe button {
+.subscription button {
   padding: 10px 16px;
   color: white;
   background-color: black;
@@ -189,12 +168,10 @@ input[type="search"]:focus {
   background-color: rgb(241, 236, 236);
 }
 
-.trends-box h1 {
+.trends-container h1 {
   margin-top: 0px;
   margin-bottom: 0;
   padding: 12px 16px;
-
-
 }
 
 .trends {
@@ -227,18 +204,15 @@ input[type="search"]:focus {
   margin-bottom: 0;
   font-size: 16px;
   font-weight: 700;
-
 }
 
 .trend-activity {
   margin-top: 2px;
   font-size: 14px;
   color: #555;
-
 }
 
-.extra-info {
-
+.extra-info { 
   padding: 16px;
   font-family: arial;
   color: #2da0fd;
@@ -251,10 +225,9 @@ input[type="search"]:focus {
 }
 
 .suggestions {
-
-margin-bottom: 16px;
+  margin-bottom: 1em;
   background-color: rgb(241, 236, 236);
-  padding: 12px 16px;
+  padding: 12px 1em;
   border-radius: 20px;
 }
 
@@ -268,15 +241,11 @@ margin-bottom: 16px;
 
 .suggestions h1 {
   font-family: arial;
-
   margin-top: 0px;
   margin-bottom: 0;
-
-
 }
 
 .dp1-box {
-
   display: flex;
   justify-content: center;
   width: 20%;
@@ -288,8 +257,6 @@ margin-bottom: 16px;
 }
 
 .account-info {
-
-
   vertical-align: top;
   width: 50%;
 }
@@ -299,7 +266,6 @@ margin-bottom: 16px;
   margin-bottom: 0;
   font-family: arial;
   font-weight: 700;
-
 }
 
 .account-info-handle {
@@ -307,18 +273,16 @@ margin-bottom: 16px;
   line-height: 0px;
   font-family: arial;
   color: gray;
-
 }
 
-.ff-option {
-margin-bottom: 16px;
+.follow{
+  margin-bottom: 1em;
   width: 30%;
   display: flex;
   justify-content: center;
 }
 
-.ff-option button {
-
+.follow button {
   font-family: arial;
   font-weight: bold;
   padding: 10px 18px;
@@ -329,15 +293,16 @@ margin-bottom: 16px;
   transition: background-color 0.15s;
 }
 
-.ff-option button:hover {
+.follow button:hover {
   cursor: pointer;
   background-color: rgb(58, 58, 58);
 }
-.end-page{
+
+footer{
   background-color: inherit;
 }
-.end-page p{
- 
+
+footer p{
   display: inline-block;
  margin-bottom: 0;
  font-size: 15px;
@@ -345,19 +310,19 @@ margin-bottom: 16px;
  margin-right: 10px;
  margin-top: 5px;
 }
-.end-page p:hover{
+
+footer p:hover{
   cursor: pointer;
   text-decoration: underline;
 }
-
-
-
 
 
 @media screen and (max-width: 1100px) {
   .info {
     display: none;
   }
+  .twitter-timeline ,.timeline-header{
+    width: 72%;
+  }
 
- 
 }
